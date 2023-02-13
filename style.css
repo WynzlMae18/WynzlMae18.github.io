@@ -1,0 +1,331 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+body{
+    overflow-x: hidden; 
+}
+.main-width{
+    width: 1280px;
+    max-width: 95%;
+    margin: 0 auto;
+    padding: 0px 20px;
+}
+.hero{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/Public/portfolio.github.io/background.png);
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+header{
+    padding: 40px 0 30px;
+    display: flex;
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo i{
+    height: 55px;
+    width: 55px;
+    background: transparent;
+    border: 2px solid #000000;
+    color: #ffd700;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+nav .hamb{
+    width: 35px;
+    height: 24px;
+    right: 3%;
+    top: 60px;
+    z-index: 5;
+    background: transparent;
+    position: absolute;
+    cursor: pointer;
+}
+nav .hamb span:nth-child(2){
+    margin: 7px 0px;
+}
+nav .nav-list{
+    list-style: none;
+}
+nav .nav-list li{
+    display: inline-block;
+}
+nav .nav-list a{
+    display: in-line block;
+    color: white;
+    margin-left: 55px;
+    font-size: 15px;
+    font-weight: 600;
+}
+nav .nav-list li:not(:last-child) a:hover{
+    color: #ffd700;
+    transition: .4s;
+}
+nav .nav-list li.btn a{
+    display: inline-block;
+    background: transparent;
+    border: 2px solid #ffd700
+    padding 9px 28px;
+    border-radius: 30px;
+    line-height: 1.3;
+    color: #ffd700;
+    font-weight: 500;
+}
+nav .nav-list li.btn:hover a{
+    background: #ffd700;
+    color: white;
+    border: 2px solid transparent;
+    transition: .4s;
+}
+.container{
+    padding-top: 190px;
+}
+.container .hero-text{
+    margin-bottom: 40px;
+}
+.container .hero-text h1{
+    color: #000000;
+    font-size: 47px;
+    font-weight: 900;
+    line-height: 1.2;
+    margin: 20px 0px 20px;
+}
+span{
+    color:#D4AF37;
+}
+.container .hero-text h3{
+    color: #000000;
+    font-weight: 400;
+    font-size: 17px;
+}
+.container .hero-text p{
+    width: 440px;
+    max-width: 100%;
+    color: #000000;
+    font-size: 15px;
+    line-height: 1.5;
+    margin-bottom: 30px;
+}
+.social a{
+    width: 37px;
+    height: 37px;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 17px
+    color #D4AF37;
+    cursor: pointer;
+    margin-right: 20px;
+    background-color: rgba(255,255,255,0.1);
+    margin-bottom: 35px;
+}
+.social a:hover{
+    transform: scale(1.1);
+    background: #D4AF37;
+    transition: .4s
+}
+.container .hero-text button{
+    color: #000000;
+    background:#ffd700;
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    padding: 8px 30px;
+    border: 2px solid #000000;
+    border-radius: 30px;
+    cursor: pointer;
+}
+.container .hero-text button:hover{
+    background: transparent;
+    border: 2px solid #D4AF37;
+    color: #D4AF37;
+    transition: .4s;
+}
+@media screen and (max-width: 930px) {
+    nav .hamb{
+        display: initial;
+    }
+    .portfolio-grid{
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+.click span{
+    position: absolute;
+    margin-top: 12px;
+}
+.click span:first-child{
+    transform: rotate(-40deg);
+}
+.click span:nth-child(2){
+    opacity: 0;
+    margin: 0;
+}
+.click span:last-child{
+    transform: rotate(40deg);
+    top: 0;
+}
+
+/* About Me Section */
+#about{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/Public/portfolio.github.io/IMG_0257.JPG);
+    background-size: cover;
+    background-position:50% 20%;
+    position: relative;
+}
+#intro{
+    display: flex;
+    flex-direction: column;
+    text-align: justify;
+    padding: 10px;
+}
+#intro h1 {
+    font-size:50px;
+    color: white;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#intro h2{
+    font-size: 2rem;
+    color:#ffd700;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+#personal li{
+    display: block;
+    font-size: 2fr;
+    color:azure;
+    font-family: 'Poppins', sans-serif;
+}
+#school li{
+    display: block;
+    font-size: 2fr;
+    color:azure;
+    font-family: 'Poppins', sans-serif;
+}
+#award li{
+    display: block;
+    font-size: 2fr;
+    color:azure;
+    font-family: 'Poppins', sans-serif;
+}
+#moreabout{
+    width: 100%;
+    height: 100%;
+    min-height: 100vh;
+    background-image: url(file:///C:/Users/Public/portfolio.github.io/IMG_3077.JPG);
+    background-size: cover;
+    background-position:20% 50%;
+    position: relative;
+}
+#moreabout h1{
+    font-size:50px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+#moreabout h2{
+    font-size: 2rem;
+    color:beige;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: left;
+}
+#likes li{
+    display: block;
+    font-size: 2fr;
+    font-family: 'Poppins', sans-serif;
+}
+#moreabout h3{
+    font-size: 2rem;
+    color:beige;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: left;
+    position: left;
+}
+#dislikes li{
+    display: block;
+    font-size: 2fr;
+    font-family: 'Poppins', sans-serif;
+}
+/* Portfolio*/
+.title h2{
+    font-size:50px;
+    color: #000000;
+    margin-bottom: 20px;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+}
+.containerss{
+    width: 100%;
+    background-color: #ffd700;
+    margin: 2rem auto; 
+  }
+  .grid {
+    width:100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display:flex;
+    flex-wrap:wrap;
+    list-style: none;
+    position: absolute;
+  }
+  .destinations{
+    width:100%;
+    display:flex;
+    flex-wrap:wrap;
+    justify-content:center;
+  }
+  .containerss .grid li {
+    height:600px;
+    padding:10px;
+    background-clip:content-box;
+    background-size:cover;
+  }
+  .containerss .grid li.large {
+    flex-basis:40%; 
+  }
+  .containerss .grid li.small {
+    flex-basis:25%;
+  }
+  .containerss .grid li.med {
+    flex-basis:35%;
+  }
+  
+  .seq-in .content {
+    transform: translateY(0);
+    transition: .2s;
+  }
+  
+  .content {
+    transform: translateY(100%);
+  }
+  
+  .seq-in .content {
+  transform: translateY(0);
+  transition: .25s;
+  }
+  
+  .seq-in .threed{
+    animation-name: threed; 
+    animation-duration: 1s;
+  } 
