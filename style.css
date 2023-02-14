@@ -294,17 +294,18 @@ line-height: 0;
 width: 150%;
 height: calc(100% - 10vh);
 object-fit: cover; 
+display: in-line
 transition: .5s;
 }
 .box > span {
 font-size: 3.8vh;
-display: block;
+display: inline;
 text-align: center;
 height: 10vh;
 line-height: 2.0;
 }
 .box:hover { flex: 1 1 50%; }
 .box:hover > img {
-width: 50%;
-height: 90%;
+width: 60%;
+height: 60%;
 }
