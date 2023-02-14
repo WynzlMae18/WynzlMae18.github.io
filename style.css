@@ -292,15 +292,15 @@ box-shadow: 0 20px 30px rgba(0,0,0,.1);
 line-height: 0;
 }
 .box > img {
-width: 120%;
-height: calc(100% - 10vh);
+width: 100%;
+height: calc(99% - 10vh);
 object-fit: cover; 
-display: grid
+display: inline-grid;
 transition: .5s;
 }
 .box > span {
 font-size: 3.8vh;
-display: grid;
+display: inline-grid;
 text-align: center;
 height: 10vh;
 line-height: 2.0;
