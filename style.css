@@ -292,7 +292,7 @@ box-shadow: 0 20px 30px rgba(0,0,0,.1);
 line-height: 0;
 }
 .box > img {
-width: 150%;
+width: 120%;
 height: calc(100% - 10vh);
 object-fit: cover; 
 display: grid
