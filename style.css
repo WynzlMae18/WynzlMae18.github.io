@@ -276,7 +276,7 @@ span{
     text-align: center;
 }
 .containerss{
-    display: flex;
+display: flex;
 width: 100%;
 padding: 4% 2%;
 box-sizing: border-box;
