@@ -285,6 +285,7 @@ height: 100vh;
 .box {
 flex: 1;
 overflow: hidden;
+display: grid
 transition: .5s;
 margin: 0 2%;
 box-shadow: 0 20px 30px rgba(0,0,0,.1);
@@ -294,18 +295,18 @@ line-height: 0;
 width: 150%;
 height: calc(100% - 10vh);
 object-fit: cover; 
-display: in-line
+display: grid
 transition: .5s;
 }
 .box > span {
 font-size: 3.8vh;
-display: inline;
+display: grid;
 text-align: center;
 height: 10vh;
 line-height: 2.0;
 }
 .box:hover { flex: 1 1 50%; }
 .box:hover > img {
-width: 60%;
-height: 60%;
+width: 40%;
+height: 40%;
 }
